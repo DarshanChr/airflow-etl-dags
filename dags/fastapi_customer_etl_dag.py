@@ -8,7 +8,7 @@ from airflow.operators.python import PythonOperator
 
 
 FASTAPI_URL = (
-    "http://fast-api-etl.default.svc.cluster.local:8000/extract"
+    "http://fast-api-etl.default.svc.cluster.local:8000/extract/run_etl"
 )
 
 
